@@ -20,7 +20,7 @@ int main() {
     string questons[] = { "an adjective (describing word): ", "a sport: ","a city: ","a person: ",
     "an action verb (past tense): ","a vehicle: ","a place: ","a noun (thing, plural): ",
     "an adjective (describing word): ","a food (plural): ","a liquid: ","an adjective (describing word): " };
-
+     
     const int l = sizeof(questons) / sizeof(questons[0]);
     string mad_lib[l];
     for (int i = 0; i < l; i++)
